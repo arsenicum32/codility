@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Helvetica Neue;
+}
+.weclome {
+  width: 250px;
+  height: 300px;
+  border: 2px solid #000;
+}
+.weclome .inp {
+  width: 200px;
+  margin-left: 22px;
+  margin-top: 25px;
+  border: none;
+  border-bottom: 2px solid #000;
+  font-size: 1.2em;
+  outline: none;
+}
+.weclome .inp:focus {
+  border-bottom: 2px solid #ffa500;
+}
+.weclome small {
+  margin-left: 22px;
+  cursor: pointer;
+}
+.weclome a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  margin-left: 22px;
+  position: relative;
+  top: 20px;
+}
+.weclome .cl {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  margin-left: 22px;
+  position: relative;
+  top: 10px;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "codility",
+  "version": "0.0.1",
+  "description": "поможет накопить",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsenicum32/codility.git"
+  },
+  "author": "ars33",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arsenicum32/codility/issues"
+  },
+  "homepage": "https://github.com/arsenicum32/codility#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "axios-debug": "0.0.4",
+    "cors": "^2.8.4",
+    "express": "^4.15.4"
+  }
+}
