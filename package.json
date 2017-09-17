@@ -22,6 +22,7 @@
     "axios-debug": "0.0.4",
     "cors": "^2.8.4",
     "express": "^4.15.4",
+    "node-telegram-bot-api": "^0.28.0",
     "socket.io": "^2.0.3"
   }
 }
