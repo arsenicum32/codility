@@ -9,7 +9,7 @@ body {
 .weclome {
   width: 250px;
   height: 300px;
-  border: 2px solid #000;
+  /*border: 2px solid #000;*/
 }
 .weclome .inp {
   width: 200px;

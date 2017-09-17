@@ -16,6 +16,6 @@ el.addEventListener('click', function (_) {
     };
     el.disabled = true;
   } else {
-    alert('next');
+    window.location.href = '/public'
   }
 });
