@@ -5,16 +5,16 @@ var el = document.getElementById('r'),
 function r(ar) {
   return ar[Math.floor(Math.random() * ar.length)];
 }
-var ar = ['one', 'two', 'three', 'four', 'five'];
-el.text = r(['круть', 'супир', 'поняль', 'оки-доки', 'дальше', 'гуд']);
+var ar = [ '27', '28', '29', '30'];
 
-el.addEventListener('click', function (_) {
+el.addEventListener('click', function () {
   if (ar.length) {
-    i.src = 'http://placehold.it/250x250?text=' + ar.splice(0, 1);
+    i.src = '/img/' + ar.splice(0, 1)+'.png';
     i.onload = function () {
       return el.disabled = false;
     };
     el.disabled = true;
+    el.text = r(['круть', 'супир', 'поняль', 'оки-доки', 'дальше', 'гуд']);
   } else {
     window.location.href = '/public'
   }

@@ -27,21 +27,38 @@ body {
   margin-left: 22px;
   cursor: pointer;
 }
-.weclome a {
-  font-size: 1.2em;
+.weclome .button {
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1em;
   text-decoration: none;
   color: #000;
   font-weight: bold;
   margin-left: 22px;
   position: relative;
   top: 20px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.button:hover{
+  background: orange;
 }
 .weclome .cl {
   font-size: 1.2em;
   text-decoration: none;
   color: #000;
   font-weight: bold;
-  margin-left: 22px;
-  position: relative;
-  top: 10px;
+  width: 250px;
+}
+
+.button a{
+  margin-top: 0;
+  padding-top: 0;
+  line-height: 50px;
+  height: 50px;
+
 }
